@@ -32,7 +32,7 @@ func main() {
 		return
 	}
 
-	_, err = pubsub.DeclareAndBind(serverChan, "dhoondo_websites", routing.DhoondoWebsitesExchange, routing.DhoondoWebsitesKey, "durable")
+	_, err = pubsub.DeclareAndBind(serverChan, routing.DhoondoQueueName, routing.DhoondoWebsitesExchange, routing.DhoondoWebsitesKey, "durable")
 	if err != nil {
 		log.Fatal(err.Error())
 		return
