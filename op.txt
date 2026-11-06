@@ -1,0 +1,1721 @@
+Parsed the body DocumentNode
+Depth: 0, Type: DocumentNode, Data: 
+Depth: 1, Type: DoctypeNode, Data: html
+Depth: 1, Type: ElementNode, Data: html
+Depth: 2, Type: ElementNode, Data: head
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: title
+Depth: 4, Type: TextNode, Data: An Introduction to Go's `x/net/html` Package: HTML Parsing and Manipulation
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+
+    
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: script
+Depth: 4, Type: TextNode, Data: {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://reintech.io/#organization","name":"Reintech","legalName":"Reintech Ltd.","url":"https://reintech.io/","logo":{"@type":"ImageObject","url":"https://reintech.io/brand-lockup.png","width":1200,"height":164},"description":"A boutique recruiting agency for senior software engineers, remote and local. Contract and payroll handled.","email":"contact@reintech.io","foundingDate":"2013-02-25","identifier":{"@type":"PropertyValue","propertyID":"Companies House","value":"08418922"},"address":{"@type":"PostalAddress","streetAddress":"31 Rutland Road","addressLocality":"London","postalCode":"E11 2DY","addressCountry":"GB"},"contactPoint":{"@type":"ContactPoint","contactType":"customer service","email":"contact@reintech.io","url":"https://reintech.io/contact","availableLanguage":"en"},"areaServed":["GB","EU"],"knowsAbout":["Software engineering recruitment","Remote hiring","Contracting and payroll for remote engineers"]},{"@type":"WebSite","@id":"https://reintech.io/#website","url":"https://reintech.io/","name":"Reintech","publisher":{"@id":"https://reintech.io/#organization"},"inLanguage":"en"},{"@type":"WebPage","@id":"https://reintech.io/blog/introduction-to-go-x-net-html-package","url":"https://reintech.io/blog/introduction-to-go-x-net-html-package","name":"An Introduction to Go\u0026#39;s `x/net/html` Package: HTML Parsing and Manipulation","description":"Learn how to parse, traverse, and manipulate HTML documents using Go's x/net/html package with this comprehensive tutorial.","inLanguage":"en","isPartOf":{"@id":"https://reintech.io/#website"},"mainEntity":{"@id":"https://reintech.io/blog/introduction-to-go-x-net-html-package#article"}},{"@type":"BlogPosting","@id":"https://reintech.io/blog/introduction-to-go-x-net-html-package#article","mainEntityOfPage":"https://reintech.io/blog/introduction-to-go-x-net-html-package","url":"https://reintech.io/blog/introduction-to-go-x-net-html-package","headline":"An Introduction to Go's `x/net/html` Package: HTML Parsing and Manipulation","description":"Learn how to parse, traverse, and manipulate HTML documents using Go's x/net/html package with this comprehensive tutorial.","datePublished":"2023-04-14T09:06:58Z","dateModified":"2026-06-13T17:27:21Z","author":{"@type":"Person","name":"Arthur C. Codex"},"publisher":{"@id":"https://reintech.io/#organization"},"articleSection":["Engineering"],"inLanguage":"en"}]}
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: meta
+Depth: 3, Type: TextNode, Data: 
+
+      
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+
+    
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+    
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+    
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: script
+Depth: 4, Type: TextNode, Data: {
+  "imports": {
+    "application": "/assets/application-c5e86c04.js",
+    "@hotwired/turbo-rails": "/assets/turbo.min-9fd88cd5.js",
+    "turbo_confirm": "/assets/turbo_confirm-e627ac48.js",
+    "@hotwired/stimulus": "/assets/stimulus.min-4b1e420e.js",
+    "@hotwired/stimulus-loading": "/assets/stimulus-loading-1fc53fe7.js",
+    "highlight.js": "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/es/highlight.min.js",
+    "livekit-client": "https://cdn.jsdelivr.net/npm/livekit-client@2.22.3/dist/livekit-client.esm.mjs",
+    "controllers/application": "/assets/controllers/application-3affb389.js",
+    "controllers/attachment_viewer_controller": "/assets/controllers/attachment_viewer_controller-32716ccf.js",
+    "controllers/auto_submit_controller": "/assets/controllers/auto_submit_controller-da92a015.js",
+    "controllers/clickable_row_controller": "/assets/controllers/clickable_row_controller-50f84bb2.js",
+    "controllers/clipboard_controller": "/assets/controllers/clipboard_controller-161a4a08.js",
+    "controllers/company_job_spectrum_controller": "/assets/controllers/company_job_spectrum_controller-d8ee6e75.js",
+    "controllers/cookie_consent_controller": "/assets/controllers/cookie_consent_controller-7e1e19ea.js",
+    "controllers/cv_viewer_controller": "/assets/controllers/cv_viewer_controller-e745151d.js",
+    "controllers/dashboard/mobile_inner_menu_controller": "/assets/controllers/dashboard/mobile_inner_menu_controller-232e48f1.js",
+    "controllers/dashboard/sidebar_controller": "/assets/controllers/dashboard/sidebar_controller-63dc0fdd.js",
+    "controllers/dashboard/submenu_controller": "/assets/controllers/dashboard/submenu_controller-55212148.js",
+    "controllers/dashboard/telegram_connection_controller": "/assets/controllers/dashboard/telegram_connection_controller-2735dc11.js",
+    "controllers/dashboard/user_menu_controller": "/assets/controllers/dashboard/user_menu_controller-fec7c145.js",
+    "controllers/dialog_controller": "/assets/controllers/dialog_controller-0f7ae7e3.js",
+    "controllers/floating_tooltip_controller": "/assets/controllers/floating_tooltip_controller-79b4207d.js",
+    "controllers/google_sign_in_controller": "/assets/controllers/google_sign_in_controller-ae3d1648.js",
+    "controllers/inbox/side_panel_controller": "/assets/controllers/inbox/side_panel_controller-4645be64.js",
+    "controllers": "/assets/controllers/index-2d06300d.js",
+    "controllers/job_application_note_form_controller": "/assets/controllers/job_application_note_form_controller-4b5d7933.js",
+    "controllers/recruiter_note_form_controller": "/assets/controllers/recruiter_note_form_controller-4f9a6809.js",
+    "controllers/recruiter_role_edit_controller": "/assets/controllers/recruiter_role_edit_controller-2f8d9d2b.js",
+    "controllers/recruiters/kanban_controller": "/assets/controllers/recruiters/kanban_controller-bf9e75fb.js",
+    "controllers/recruiters/talent_filter_controller": "/assets/controllers/recruiters/talent_filter_controller-aa32ff40.js",
+    "controllers/talents/autosave_controller": "/assets/controllers/talents/autosave_controller-ee282881.js",
+    "controllers/talents/axis_order_controller": "/assets/controllers/talents/axis_order_controller-f33b7b56.js",
+    "controllers/talents/chip_select_controller": "/assets/controllers/talents/chip_select_controller-8304ec40.js",
+    "controllers/talents/radar_range_controller": "/assets/controllers/talents/radar_range_controller-a8720dec.js",
+    "controllers/talents/spec_picker_controller": "/assets/controllers/talents/spec_picker_controller-1752710e.js",
+    "controllers/talents/spectrum_edit_controller": "/assets/controllers/talents/spectrum_edit_controller-a3279cfd.js",
+    "controllers/talents/tags_input_controller": "/assets/controllers/talents/tags_input_controller-14cdc34c.js",
+    "controllers/talents/tracker_controller": "/assets/controllers/talents/tracker_controller-9624f01a.js",
+    "controllers/talents/voice_room_controller": "/assets/controllers/talents/voice_room_controller-0c95e0b1.js",
+    "controllers/turnstile_controller": "/assets/controllers/turnstile_controller-c322fafa.js",
+    "controllers/web/apply_controller": "/assets/controllers/web/apply_controller-d3259c06.js",
+    "controllers/web/back_on_escape_controller": "/assets/controllers/web/back_on_escape_controller-83824175.js",
+    "controllers/web/blog_code_controller": "/assets/controllers/web/blog_code_controller-dcc06427.js",
+    "controllers/web/blog_promo_controller": "/assets/controllers/web/blog_promo_controller-2d3c44c0.js",
+    "controllers/web/booking_controller": "/assets/controllers/web/booking_controller-6952b780.js",
+    "controllers/web/client_tabs_controller": "/assets/controllers/web/client_tabs_controller-3a3fa647.js",
+    "controllers/web/contact_form_controller": "/assets/controllers/web/contact_form_controller-fb3c6342.js",
+    "controllers/web/copy_prompt_controller": "/assets/controllers/web/copy_prompt_controller-1f6dec81.js",
+    "controllers/web/email_edit_controller": "/assets/controllers/web/email_edit_controller-3c5a6997.js",
+    "controllers/web/hero_spectrum_controller": "/assets/controllers/web/hero_spectrum_controller-4012b0b1.js",
+    "controllers/web/job_tabs_controller": "/assets/controllers/web/job_tabs_controller-7525ebe7.js",
+    "controllers/web/jobs_filter_controller": "/assets/controllers/web/jobs_filter_controller-c05af4ef.js",
+    "controllers/web/mini_spectrum_controller": "/assets/controllers/web/mini_spectrum_controller-a515e34a.js",
+    "controllers/web/nav_controller": "/assets/controllers/web/nav_controller-80ecec5a.js",
+    "controllers/web/role_review_controller": "/assets/controllers/web/role_review_controller-51b0fdca.js",
+    "controllers/web/seo_toc_controller": "/assets/controllers/web/seo_toc_controller-9dd20d6b.js",
+    "controllers/web/spectrum_playground_controller": "/assets/controllers/web/spectrum_playground_controller-e70fa440.js",
+    "controllers/web/submit_controller": "/assets/controllers/web/submit_controller-a51e0584.js"
+  }
+}
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: link
+Depth: 3, Type: TextNode, Data: 
+
+Depth: 3, Type: ElementNode, Data: script
+Depth: 4, Type: TextNode, Data: import "application"
+Depth: 3, Type: TextNode, Data: 
+    
+Depth: 3, Type: ElementNode, Data: script
+Depth: 3, Type: TextNode, Data: 
+
+  
+Depth: 2, Type: TextNode, Data: 
+
+  
+Depth: 2, Type: ElementNode, Data: body
+Depth: 3, Type: TextNode, Data: 
+
+    
+Depth: 3, Type: ElementNode, Data: nav
+Depth: 4, Type: TextNode, Data: 
+  
+Depth: 4, Type: ElementNode, Data: div
+Depth: 5, Type: TextNode, Data: 
+    
+Depth: 5, Type: ElementNode, Data: a
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 6, Type: ElementNode, Data: svg
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+  
+Depth: 7, Type: ElementNode, Data: path
+Depth: 7, Type: TextNode, Data: 
+
+Depth: 6, Type: TextNode, Data: 
+
+    
+Depth: 5, Type: TextNode, Data: 
+
+
+    
+Depth: 5, Type: ElementNode, Data: div
+Depth: 6, Type: TextNode, Data: 
+        
+Depth: 6, Type: ElementNode, Data: a
+Depth: 7, Type: TextNode, Data: For engineers
+Depth: 6, Type: TextNode, Data: 
+        
+Depth: 6, Type: ElementNode, Data: a
+Depth: 7, Type: TextNode, Data: For companies
+Depth: 6, Type: TextNode, Data: 
+        
+Depth: 6, Type: ElementNode, Data: a
+Depth: 7, Type: TextNode, Data: Open roles
+Depth: 6, Type: TextNode, Data: 
+    
+Depth: 5, Type: TextNode, Data: 
+
+    
+Depth: 5, Type: ElementNode, Data: button
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 6, Type: ElementNode, Data: span
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 6, Type: ElementNode, Data: span
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 6, Type: ElementNode, Data: span
+Depth: 6, Type: TextNode, Data: 
+    
+Depth: 5, Type: TextNode, Data: 
+  
+Depth: 4, Type: TextNode, Data: 
+
+Depth: 3, Type: TextNode, Data: 
+
+    
+Depth: 3, Type: ElementNode, Data: div
+Depth: 4, Type: TextNode, Data: 
+  
+Depth: 4, Type: ElementNode, Data: div
+Depth: 5, Type: TextNode, Data: 
+    
+Depth: 5, Type: ElementNode, Data: p
+Depth: 6, Type: TextNode, Data: 
+      We use a few cookies to keep the site working and, if you agree, Google Analytics to see which pages help. Nothing for advertising.
+      
+Depth: 6, Type: ElementNode, Data: a
+Depth: 7, Type: TextNode, Data: What each one does
+Depth: 6, Type: TextNode, Data: .
+    
+Depth: 5, Type: TextNode, Data: 
+    
+Depth: 5, Type: ElementNode, Data: div
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 6, Type: ElementNode, Data: button
+Depth: 7, Type: TextNode, Data: Only necessary
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 6, Type: ElementNode, Data: button
+Depth: 7, Type: TextNode, Data: Accept analytics
+Depth: 6, Type: TextNode, Data: 
+    
+Depth: 5, Type: TextNode, Data: 
+  
+Depth: 4, Type: TextNode, Data: 
+
+Depth: 3, Type: TextNode, Data: 
+
+
+    
+Depth: 3, Type: ElementNode, Data: main
+Depth: 4, Type: TextNode, Data: 
+      
+
+Depth: 4, Type: ElementNode, Data: article
+Depth: 5, Type: TextNode, Data: 
+  
+Depth: 5, Type: ElementNode, Data: div
+Depth: 6, Type: TextNode, Data: 
+    
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: TextNode, Data: 
+      
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: 
+        
+Depth: 8, Type: ElementNode, Data: span
+Depth: 9, Type: TextNode, Data: 
+          
+Depth: 9, Type: ElementNode, Data: span
+Depth: 10, Type: TextNode, Data: The book for engineers
+Depth: 9, Type: TextNode, Data: 
+          
+Depth: 9, Type: ElementNode, Data: span
+Depth: 10, Type: TextNode, Data: Requisite Variety
+Depth: 9, Type: TextNode, Data: 
+          
+Depth: 9, Type: ElementNode, Data: span
+Depth: 10, Type: TextNode, Data: The Systems Method for Working with AI — Beyond Prompts and Tools
+Depth: 9, Type: TextNode, Data: 
+        
+Depth: 8, Type: TextNode, Data: 
+        
+Depth: 8, Type: ElementNode, Data: span
+Depth: 9, Type: TextNode, Data: →
+Depth: 8, Type: TextNode, Data: 
+      
+Depth: 7, Type: TextNode, Data: 
+
+      
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: 
+        
+Depth: 8, Type: ElementNode, Data: span
+Depth: 9, Type: TextNode, Data: 
+          
+Depth: 9, Type: ElementNode, Data: span
+Depth: 10, Type: TextNode, Data: The book for engineers
+Depth: 9, Type: TextNode, Data: 
+          
+Depth: 9, Type: ElementNode, Data: span
+Depth: 10, Type: TextNode, Data: Requisite Variety
+Depth: 9, Type: TextNode, Data: 
+          
+Depth: 9, Type: ElementNode, Data: span
+Depth: 10, Type: TextNode, Data: The Systems Method for Working with AI
+Depth: 9, Type: TextNode, Data: 
+        
+Depth: 8, Type: TextNode, Data: 
+        
+Depth: 8, Type: ElementNode, Data: button
+Depth: 9, Type: TextNode, Data: ×
+Depth: 8, Type: TextNode, Data: 
+      
+Depth: 7, Type: TextNode, Data: 
+    
+Depth: 6, Type: TextNode, Data: 
+
+    
+Depth: 6, Type: ElementNode, Data: a
+Depth: 7, Type: TextNode, Data: ← All posts
+Depth: 6, Type: TextNode, Data: 
+
+    
+Depth: 6, Type: ElementNode, Data: header
+Depth: 7, Type: TextNode, Data: 
+        
+Depth: 7, Type: ElementNode, Data: div
+Depth: 8, Type: TextNode, Data: 
+            
+Depth: 8, Type: ElementNode, Data: a
+Depth: 9, Type: TextNode, Data: Engineering
+Depth: 8, Type: TextNode, Data: 
+        
+Depth: 7, Type: TextNode, Data: 
+
+      
+Depth: 7, Type: ElementNode, Data: h1
+Depth: 8, Type: TextNode, Data: An Introduction to Go's `x/net/html` Package: HTML Parsing and Manipulation
+Depth: 7, Type: TextNode, Data: 
+
+      
+Depth: 7, Type: ElementNode, Data: div
+Depth: 8, Type: TextNode, Data: 
+        
+Depth: 8, Type: ElementNode, Data: span
+Depth: 9, Type: TextNode, Data: Arthur C. Codex
+Depth: 8, Type: TextNode, Data: 
+        
+Depth: 8, Type: ElementNode, Data: span
+Depth: 9, Type: TextNode, Data: April 14, 2023
+Depth: 8, Type: TextNode, Data: 
+      
+Depth: 7, Type: TextNode, Data: 
+    
+Depth: 6, Type: TextNode, Data: 
+
+    
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: TextNode, Data: 
+      
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: The 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: x/net/html
+Depth: 8, Type: TextNode, Data:  package is Go's official sub-repository package for parsing and manipulating HTML documents. Unlike simple string manipulation or regex-based approaches, this package implements a standards-compliant HTML5 tokenizer and parser, making it ideal for web scraping, content extraction, and HTML transformation tasks. This guide demonstrates practical techniques for working with HTML in Go, from basic parsing to advanced DOM manipulation.
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: If you're building a team to work with Go-based web scraping or content processing systems, you may want to 
+Depth: 8, Type: ElementNode, Data: a
+Depth: 9, Type: TextNode, Data: hire remote Go developers
+Depth: 8, Type: TextNode, Data:  with experience in HTML parsing and data extraction.
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Installation and Setup
+Depth: 7, Type: TextNode, Data: 
+  
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: The 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: x/net/html
+Depth: 8, Type: TextNode, Data:  package resides in Go's extended network libraries. Install it using Go modules:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: go get -u golang.org/x/net/html
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: This downloads the package and adds it to your 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: go.mod
+Depth: 8, Type: TextNode, Data:  file. For Go 1.16+, you can also use 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: go install
+Depth: 8, Type: TextNode, Data:  with a version suffix if needed.
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Understanding the Node Structure
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: The package represents HTML documents as a tree of 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: *html.Node
+Depth: 8, Type: TextNode, Data:  structures. Each node contains:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: ul
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Type
+Depth: 9, Type: TextNode, Data:  - One of 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: ErrorNode
+Depth: 9, Type: TextNode, Data: , 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: TextNode
+Depth: 9, Type: TextNode, Data: , 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: DocumentNode
+Depth: 9, Type: TextNode, Data: , 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: ElementNode
+Depth: 9, Type: TextNode, Data: , 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: CommentNode
+Depth: 9, Type: TextNode, Data: , or 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: DoctypeNode
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Data
+Depth: 9, Type: TextNode, Data:  - The tag name for elements, or the actual text/comment content
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Attr
+Depth: 9, Type: TextNode, Data:  - A slice of attributes (for element nodes)
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: FirstChild/LastChild
+Depth: 9, Type: TextNode, Data:  - Pointers to child nodes
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: PrevSibling/NextSibling
+Depth: 9, Type: TextNode, Data:  - Pointers to adjacent nodes at the same level
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Parent
+Depth: 9, Type: TextNode, Data:  - Pointer to the parent node
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: This linked structure allows efficient traversal and manipulation of the document tree.
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Parsing HTML Documents
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: The 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: html.Parse()
+Depth: 8, Type: TextNode, Data:  function accepts any 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: io.Reader
+Depth: 8, Type: TextNode, Data:  and returns the root of the parsed document tree:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: package main
+
+import (
+	"fmt"
+	"log"
+	"strings"
+	"golang.org/x/net/html"
+)
+
+func main() {
+	htmlData := `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample HTML Document</title>
+</head>
+<body>
+    <h1 class="heading">Hello, World!</h1>
+    <p id="intro">This is a sample HTML document.</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+</body>
+</html>`
+
+	doc, err := html.Parse(strings.NewReader(htmlData))
+	if err != nil {
+		log.Fatal("Error parsing HTML:", err)
+	}
+
+	fmt.Printf("Root node type: %v\n", doc.Type)
+	fmt.Printf("Root node data: %s\n", doc.Data)
+}
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: The parser handles malformed HTML gracefully, applying HTML5's error correction rules. It automatically inserts missing tags and fixes nesting issues, ensuring you always get a valid tree structure.
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: h3
+Depth: 8, Type: TextNode, Data: Parsing from Different Sources
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: Since 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: Parse()
+Depth: 8, Type: TextNode, Data:  accepts an 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: io.Reader
+Depth: 8, Type: TextNode, Data: , you can parse from multiple sources:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: // From HTTP response
+resp, _ := http.Get("https://example.com")
+defer resp.Body.Close()
+doc, _ := html.Parse(resp.Body)
+
+// From file
+file, _ := os.Open("page.html")
+defer file.Close()
+doc, _ := html.Parse(file)
+
+// From string
+doc, _ := html.Parse(strings.NewReader(htmlString))
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Traversing the Document Tree
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: Document traversal typically uses recursive functions to visit each node. Here's a robust traversal implementation that handles all node types:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: func traverseNode(n *html.Node, depth int) {
+	if n == nil {
+		return
+	}
+
+	indent := strings.Repeat("  ", depth)
+
+	switch n.Type {
+	case html.ElementNode:
+		// Print opening tag with attributes
+		attrs := ""
+		for _, attr := range n.Attr {
+			attrs += fmt.Sprintf(" %s=\"%s\"", attr.Key, attr.Val)
+		}
+		fmt.Printf("%s<%s%s>\n", indent, n.Data, attrs)
+
+	case html.TextNode:
+		text := strings.TrimSpace(n.Data)
+		if text != "" {
+			fmt.Printf("%s%s\n", indent, text)
+		}
+
+	case html.CommentNode:
+		fmt.Printf("%s<!-- %s -->\n", indent, n.Data)
+
+	case html.DoctypeNode:
+		fmt.Printf("%s<!DOCTYPE %s>\n", indent, n.Data)
+	}
+
+	// Traverse children
+	for c := n.FirstChild; c != nil; c = c.NextSibling {
+		traverseNode(c, depth+1)
+	}
+}
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: h3
+Depth: 8, Type: TextNode, Data: Finding Specific Elements
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: You often need to locate specific elements within the document. Here's a utility function to find the first element matching a tag name:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: func findElement(n *html.Node, tagName string) *html.Node {
+	if n.Type == html.ElementNode && n.Data == tagName {
+		return n
+	}
+
+	for c := n.FirstChild; c != nil; c = c.NextSibling {
+		if result := findElement(c, tagName); result != nil {
+			return result
+		}
+	}
+
+	return nil
+}
+
+// Usage
+h1 := findElement(doc, "h1")
+if h1 != nil {
+	fmt.Println("Found h1:", h1.FirstChild.Data)
+}
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: h3
+Depth: 8, Type: TextNode, Data: Finding Elements by Attribute
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: For more sophisticated queries, you can search by attributes:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: func findByAttribute(n *html.Node, tagName, attrKey, attrVal string) *html.Node {
+	if n.Type == html.ElementNode && n.Data == tagName {
+		for _, attr := range n.Attr {
+			if attr.Key == attrKey && attr.Val == attrVal {
+				return n
+			}
+		}
+	}
+
+	for c := n.FirstChild; c != nil; c = c.NextSibling {
+		if result := findByAttribute(c, tagName, attrKey, attrVal); result != nil {
+			return result
+		}
+	}
+
+	return nil
+}
+
+// Find element by ID
+intro := findByAttribute(doc, "p", "id", "intro")
+
+// Find element by class
+heading := findByAttribute(doc, "h1", "class", "heading")
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Extracting Data from HTML
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: A common use case is extracting specific data from parsed documents. Here's how to extract all text content from a node:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: func extractText(n *html.Node) string {
+	if n.Type == html.TextNode {
+		return n.Data
+	}
+
+	var text string
+	for c := n.FirstChild; c != nil; c = c.NextSibling {
+		text += extractText(c)
+	}
+
+	return text
+}
+
+// Extract all links from a document
+func extractLinks(n *html.Node) []string {
+	var links []string
+
+	if n.Type == html.ElementNode && n.Data == "a" {
+		for _, attr := range n.Attr {
+			if attr.Key == "href" {
+				links = append(links, attr.Val)
+			}
+		}
+	}
+
+	for c := n.FirstChild; c != nil; c = c.NextSibling {
+		links = append(links, extractLinks(c)...)
+	}
+
+	return links
+}
+
+// Usage
+allLinks := extractLinks(doc)
+for _, link := range allLinks {
+	fmt.Println("Found link:", link)
+}
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Manipulating the Document Tree
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: The 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: x/net/html
+Depth: 8, Type: TextNode, Data:  package allows you to modify the parsed tree. You can change text content, add or remove nodes, and modify attributes.
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: h3
+Depth: 8, Type: TextNode, Data: Modifying Text Content
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: func changeHeadingText(n *html.Node, newText string) {
+	if n.Type == html.ElementNode && n.Data == "h1" {
+		// Remove existing text nodes
+		for c := n.FirstChild; c != nil; {
+			next := c.NextSibling
+			if c.Type == html.TextNode {
+				n.RemoveChild(c)
+			}
+			c = next
+		}
+
+		// Add new text node
+		textNode := &html.Node{
+			Type: html.TextNode,
+			Data: newText,
+		}
+		n.AppendChild(textNode)
+		return
+	}
+
+	for c := n.FirstChild; c != nil; c = c.NextSibling {
+		changeHeadingText(c, newText)
+	}
+}
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: h3
+Depth: 8, Type: TextNode, Data: Adding and Removing Nodes
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: You can programmatically construct and insert new nodes:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: func addParagraph(body *html.Node, text string) {
+	// Create new paragraph element
+	p := &html.Node{
+		Type: html.ElementNode,
+		Data: "p",
+	}
+
+	// Create text node
+	textNode := &html.Node{
+		Type: html.TextNode,
+		Data: text,
+	}
+
+	// Build structure
+	p.AppendChild(textNode)
+	body.AppendChild(p)
+}
+
+// Find body and add paragraph
+body := findElement(doc, "body")
+if body != nil {
+	addParagraph(body, "This is a dynamically added paragraph.")
+}
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: h3
+Depth: 8, Type: TextNode, Data: Modifying Attributes
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: func setAttr(n *html.Node, key, val string) {
+	// Check if attribute exists
+	for i, attr := range n.Attr {
+		if attr.Key == key {
+			n.Attr[i].Val = val
+			return
+		}
+	}
+
+	// Add new attribute
+	n.Attr = append(n.Attr, html.Attribute{
+		Key: key,
+		Val: val,
+	})
+}
+
+func removeAttr(n *html.Node, key string) {
+	for i, attr := range n.Attr {
+		if attr.Key == key {
+			n.Attr = append(n.Attr[:i], n.Attr[i+1:]...)
+			return
+		}
+	}
+}
+
+// Usage
+h1 := findElement(doc, "h1")
+if h1 != nil {
+	setAttr(h1, "id", "main-heading")
+	setAttr(h1, "class", "title large")
+}
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Rendering Modified HTML
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: After manipulating the document tree, use 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: html.Render()
+Depth: 8, Type: TextNode, Data:  to convert it back to HTML:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: func renderHTML(n *html.Node) (string, error) {
+	var buf strings.Builder
+	err := html.Render(&buf, n)
+	if err != nil {
+		return "", err
+	}
+	return buf.String(), nil
+}
+
+// Full example
+func main() {
+	htmlData := `<html><body><h1>Original</h1></body></html>`
+	
+	doc, _ := html.Parse(strings.NewReader(htmlData))
+	
+	// Modify the document
+	h1 := findElement(doc, "h1")
+	if h1 != nil && h1.FirstChild != nil {
+		h1.FirstChild.Data = "Modified"
+		setAttr(h1, "class", "updated")
+	}
+	
+	// Render back to HTML
+	output, _ := renderHTML(doc)
+	fmt.Println(output)
+}
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Practical Example: Web Scraper
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: Here's a complete example that fetches a web page and extracts all article titles:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: package main
+
+import (
+	"fmt"
+	"log"
+	"net/http"
+	"golang.org/x/net/html"
+)
+
+type Article struct {
+	Title string
+	URL   string
+}
+
+func scrapeArticles(url string) ([]Article, error) {
+	resp, err := http.Get(url)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	doc, err := html.Parse(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+
+	var articles []Article
+	var crawl func(*html.Node)
+	
+	crawl = func(n *html.Node) {
+		if n.Type == html.ElementNode && n.Data == "article" {
+			article := extractArticle(n)
+			if article.Title != "" {
+				articles = append(articles, article)
+			}
+		}
+
+		for c := n.FirstChild; c != nil; c = c.NextSibling {
+			crawl(c)
+		}
+	}
+
+	crawl(doc)
+	return articles, nil
+}
+
+func extractArticle(n *html.Node) Article {
+	var article Article
+
+	var findTitle func(*html.Node)
+	findTitle = func(n *html.Node) {
+		if n.Type == html.ElementNode {
+			if n.Data == "h2" || n.Data == "h3" {
+				article.Title = extractText(n)
+			} else if n.Data == "a" {
+				for _, attr := range n.Attr {
+					if attr.Key == "href" {
+						article.URL = attr.Val
+					}
+				}
+			}
+		}
+
+		for c := n.FirstChild; c != nil; c = c.NextSibling {
+			findTitle(c)
+		}
+	}
+
+	findTitle(n)
+	return article
+}
+
+func extractText(n *html.Node) string {
+	if n.Type == html.TextNode {
+		return n.Data
+	}
+	var text string
+	for c := n.FirstChild; c != nil; c = c.NextSibling {
+		text += extractText(c)
+	}
+	return text
+}
+
+func main() {
+	articles, err := scrapeArticles("https://example.com/blog")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	for _, article := range articles {
+		fmt.Printf("Title: %s\nURL: %s\n\n", article.Title, article.URL)
+	}
+}
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Performance Considerations
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: When working with large HTML documents, keep these optimization strategies in mind:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: ul
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Early termination
+Depth: 9, Type: TextNode, Data:  - Stop traversal once you find what you need rather than walking the entire tree
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Avoid repeated parsing
+Depth: 9, Type: TextNode, Data:  - Parse once and cache the result if you need multiple operations
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Use streaming
+Depth: 9, Type: TextNode, Data:  - For very large documents, consider using 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: html.Tokenizer
+Depth: 9, Type: TextNode, Data:  for event-driven parsing without building the full tree
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Memory management
+Depth: 9, Type: TextNode, Data:  - Be cautious with recursive functions on deeply nested documents; consider iterative approaches with explicit stacks
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: h3
+Depth: 8, Type: TextNode, Data: Using the Tokenizer for Streaming
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: For memory-efficient processing of large documents:
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: pre
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: func streamParse(r io.Reader) error {
+	tokenizer := html.NewTokenizer(r)
+
+	for {
+		tokenType := tokenizer.Next()
+
+		switch tokenType {
+		case html.ErrorToken:
+			err := tokenizer.Err()
+			if err == io.EOF {
+				return nil
+			}
+			return err
+
+		case html.StartTagToken:
+			token := tokenizer.Token()
+			if token.Data == "a" {
+				for _, attr := range token.Attr {
+					if attr.Key == "href" {
+						fmt.Println("Link:", attr.Val)
+					}
+				}
+			}
+		}
+	}
+}
+Depth: 7, Type: TextNode, Data: 
+
+
+
+  
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Best Practices for HTML Parsing in Go
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: ul
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Always handle errors
+Depth: 9, Type: TextNode, Data:  - Check return values from 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: Parse()
+Depth: 9, Type: TextNode, Data:  and 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: Render()
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Validate input
+Depth: 9, Type: TextNode, Data:  - Sanitize user-provided HTML to prevent XSS attacks before parsing
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Use specific selectors
+Depth: 9, Type: TextNode, Data:  - Combine tag names with attributes for precise element location
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Test with real-world HTML
+Depth: 9, Type: TextNode, Data:  - Many websites have malformed HTML; test your parser against actual target pages
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Handle missing elements gracefully
+Depth: 9, Type: TextNode, Data:  - Always check for 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: nil
+Depth: 9, Type: TextNode, Data:  before accessing node properties
+Depth: 8, Type: TextNode, Data: 
+    
+Depth: 8, Type: ElementNode, Data: li
+Depth: 9, Type: ElementNode, Data: strong
+Depth: 10, Type: TextNode, Data: Consider using a higher-level library
+Depth: 9, Type: TextNode, Data:  - For complex CSS selector queries, consider 
+Depth: 9, Type: ElementNode, Data: a
+Depth: 10, Type: TextNode, Data: goquery
+Depth: 9, Type: TextNode, Data: , which builds on 
+Depth: 9, Type: ElementNode, Data: code
+Depth: 10, Type: TextNode, Data: x/net/html
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 7, Type: TextNode, Data: 
+
+  
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: The 
+Depth: 8, Type: ElementNode, Data: code
+Depth: 9, Type: TextNode, Data: x/net/html
+Depth: 8, Type: TextNode, Data:  package provides low-level control over HTML parsing and manipulation, making it ideal for building custom scrapers, content transformers, and HTML processing pipelines. Whether you're extracting data from web pages, building a static site generator, or implementing server-side HTML transformations, this package offers the foundation for robust HTML handling in Go. Teams looking to implement these capabilities should 
+Depth: 8, Type: ElementNode, Data: a
+Depth: 9, Type: TextNode, Data: hire remote Go developers
+Depth: 8, Type: TextNode, Data:  with experience in HTML parsing and web scraping technologies.
+Depth: 7, Type: TextNode, Data: 
+
+    
+Depth: 6, Type: TextNode, Data: 
+
+    
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: TextNode, Data: 
+      
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: ← Back to the blog
+Depth: 7, Type: TextNode, Data: 
+    
+Depth: 6, Type: TextNode, Data: 
+  
+Depth: 5, Type: TextNode, Data: 
+
+  
+Depth: 5, Type: ElementNode, Data: div
+Depth: 6, Type: TextNode, Data: 
+    
+Depth: 6, Type: ElementNode, Data: aside
+Depth: 7, Type: TextNode, Data: 
+      
+Depth: 7, Type: ElementNode, Data: div
+Depth: 8, Type: TextNode, Data: For engineers
+Depth: 7, Type: TextNode, Data: 
+      
+Depth: 7, Type: ElementNode, Data: h2
+Depth: 8, Type: TextNode, Data: Get hired on how you think.
+Depth: 7, Type: TextNode, Data: 
+      
+Depth: 7, Type: ElementNode, Data: p
+Depth: 8, Type: TextNode, Data: 
+          
+Depth: 8, Type: ElementNode, Data: strong
+Depth: 9, Type: TextNode, Data: 3,121 open engineering roles
+Depth: 8, Type: TextNode, Data:  are matched
+          to profiles on Reintech right now —
+          18 hiring through Reintech and
+          3,103 from across the web, each rated on the same six axes.
+          Create your profile, see your ranked matches, and apply. No recruiting fees for engineers.
+      
+Depth: 7, Type: TextNode, Data: 
+      
+Depth: 7, Type: ElementNode, Data: div
+Depth: 8, Type: TextNode, Data: 
+        
+Depth: 8, Type: ElementNode, Data: a
+Depth: 9, Type: TextNode, Data: Create a profile and apply →
+Depth: 8, Type: TextNode, Data: 
+        
+Depth: 8, Type: ElementNode, Data: a
+Depth: 9, Type: TextNode, Data: Hiring? See how it works
+Depth: 8, Type: TextNode, Data: 
+      
+Depth: 7, Type: TextNode, Data: 
+    
+Depth: 6, Type: TextNode, Data: 
+  
+Depth: 5, Type: TextNode, Data: 
+
+Depth: 4, Type: TextNode, Data: 
+
+    
+Depth: 3, Type: TextNode, Data: 
+
+    
+Depth: 3, Type: ElementNode, Data: footer
+Depth: 4, Type: TextNode, Data: 
+  
+Depth: 4, Type: ElementNode, Data: div
+Depth: 5, Type: TextNode, Data: 
+    
+Depth: 5, Type: ElementNode, Data: div
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: TextNode, Data: 
+        
+Depth: 7, Type: ElementNode, Data: svg
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+  
+Depth: 8, Type: ElementNode, Data: path
+Depth: 8, Type: TextNode, Data: 
+
+Depth: 7, Type: TextNode, Data: 
+
+      
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: TextNode, Data: A recruiting system with a human inside. Engineering and go-to-market roles, remote and local. Contract and payroll handled.
+Depth: 6, Type: TextNode, Data: 
+    
+Depth: 5, Type: TextNode, Data: 
+      
+Depth: 5, Type: ElementNode, Data: div
+Depth: 6, Type: TextNode, Data: 
+        
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: TextNode, Data: For engineers
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: For engineers
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: Email your CV
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: Open roles
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: The Reintech Guild
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 5, Type: TextNode, Data: 
+      
+Depth: 5, Type: ElementNode, Data: div
+Depth: 6, Type: TextNode, Data: 
+        
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: TextNode, Data: For companies
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: For companies
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: Book a call
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 5, Type: TextNode, Data: 
+      
+Depth: 5, Type: ElementNode, Data: div
+Depth: 6, Type: TextNode, Data: 
+        
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: TextNode, Data: Company
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: Manifesto
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: Blog
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: Voices
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: The method
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: Developer docs
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: About Reintech
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 5, Type: TextNode, Data: 
+      
+Depth: 5, Type: ElementNode, Data: div
+Depth: 6, Type: TextNode, Data: 
+        
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: TextNode, Data: Contact
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: TextNode, Data: Contact
+Depth: 6, Type: TextNode, Data: 
+          
+Depth: 6, Type: ElementNode, Data: div
+Depth: 7, Type: ElementNode, Data: a
+Depth: 8, Type: ElementNode, Data: span
+Depth: 9, Type: TextNode, Data: [email protected]
+Depth: 6, Type: TextNode, Data: 
+      
+Depth: 5, Type: TextNode, Data: 
+  
+Depth: 4, Type: TextNode, Data: 
+  
+Depth: 4, Type: ElementNode, Data: div
+Depth: 5, Type: TextNode, Data: 
+    
+Depth: 5, Type: ElementNode, Data: span
+Depth: 6, Type: TextNode, Data: © 2026 reintech.io
+Depth: 5, Type: TextNode, Data: 
+      
+Depth: 5, Type: ElementNode, Data: a
+Depth: 6, Type: TextNode, Data: Privacy policy
+Depth: 5, Type: TextNode, Data: 
+      
+Depth: 5, Type: ElementNode, Data: a
+Depth: 6, Type: TextNode, Data: Terms of service
+Depth: 5, Type: TextNode, Data: 
+      
+Depth: 5, Type: ElementNode, Data: a
+Depth: 6, Type: TextNode, Data: Cookie settings
+Depth: 5, Type: TextNode, Data: 
+  
+Depth: 4, Type: TextNode, Data: 
+
+Depth: 3, Type: TextNode, Data: 
+
+  
+Depth: 3, Type: ElementNode, Data: script
+Depth: 3, Type: TextNode, Data: 
+
+
