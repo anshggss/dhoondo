@@ -10,10 +10,9 @@ import (
 
 func PublishWebsites(q *amqp.Channel, exchange, key string, websites []models.Website) error {
 	if len(websites) == 0 {
-		return fmt.Errorf("No website sent for publishing")
+		return nil
 	}
 	for _, website := range websites {
-		fmt.Printf("Publishing website %s\n", website.Link)
 		val, err := json.Marshal(website)
 		if err != nil {
 			fmt.Printf("Error marshalling the website: %s", err.Error())

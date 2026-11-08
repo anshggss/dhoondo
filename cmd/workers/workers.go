@@ -2,6 +2,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 
@@ -31,6 +32,8 @@ func main() {
 		log.Fatal(err.Error())
 		return
 	}
-	crawler.AddListeners(qchan, routing.DhoondoQueueName)
-
+	err = crawler.AddListener(qchan, routing.DhoondoQueueName)
+	if err != nil {
+		fmt.Println(err.Error())
+	}
 }
