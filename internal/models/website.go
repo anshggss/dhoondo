@@ -1,5 +1,6 @@
 package models
 
 type Website struct {
-	Link string
+	Link  string
+	Depth int
 }

@@ -1,6 +1,8 @@
-package crawler
+package workerhelper
 
 import (
+	"fmt"
+
 	"golang.org/x/net/html"
 )
 
@@ -15,6 +17,8 @@ func ExtractLinks(root *html.Node, depth int) []string {
 				links = append(links, attr.Val)
 			}
 		}
+	} else {
+		fmt.Println("condition didn't match")
 	}
 	for temp := root.FirstChild; temp != nil; temp = temp.NextSibling {
 		links = append(links, ExtractLinks(temp, depth+1)...)
