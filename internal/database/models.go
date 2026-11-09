@@ -8,7 +8,17 @@ import (
 	"github.com/jackc/pgx/v5/pgtype"
 )
 
+type Reverseindex struct {
+	Wordid    pgtype.Int4
+	Websiteid pgtype.UUID
+}
+
 type Website struct {
 	ID  pgtype.UUID
 	Url pgtype.Text
+}
+
+type Word struct {
+	ID   int32
+	Word pgtype.Text
 }

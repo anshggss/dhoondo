@@ -11,8 +11,6 @@ import (
 	workerhelper "github.com/anshggss/dhoondo/cmd/workers/crawler/helper"
 	"github.com/anshggss/dhoondo/internal/database"
 	"github.com/anshggss/dhoondo/internal/models"
-	"github.com/anshggss/dhoondo/internal/pubsub"
-	"github.com/anshggss/dhoondo/internal/routing"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgtype"
 	"github.com/joho/godotenv"
@@ -101,71 +99,92 @@ func AddListener(qchan *amqp.Channel, qName string) error {
 
 		header := resp.Header.Get("Content-Type")
 		fmt.Printf("Header type is %s\n", header)
-		// var root *html.Node
-		// if header == "text/html" {
 		root, err := html.Parse(resp.Body)
 		if err != nil {
 			d.Nack(false, false)
 			resp.Body.Close()
 			continue
 		}
-		// } else if header == "text/plain" {
-		// 	bts, err := io.ReadAll(resp.Body)
-		// 	if err != nil {
-		// 		continue
-		// 	}
-		// 	str := string(bts)
-		// 	fmt.Println(str)
-		// root, err = html.Parse(strings.NewReader(resp.Body))
+
+		/* Now here we need to reverse index the page instead of extracting links
+		We need :
+		1. Another helper function that crawls the page and returns
+		a list of all the words present in the page
+		2. One helper function to index the words in the database
+		3. Another database table that holds all the words found
+		4. One more table that maps the words to the websites they were found on
+		*/
+
+		words := workerhelper.ExtractWords(root, 0)
+		if words == nil {
+			d.Nack(false, false)
+			resp.Body.Close()
+			continue
+		}
+
+		words = workerhelper.DeDuplicate(words)
+
+		// Older logic for recursively exploring the websites
+		// websites, err := workerhelper.ConvertToWebsite(links, val)
 		// if err != nil {
 		// 	d.Nack(false, false)
 		// 	resp.Body.Close()
 		// 	continue
 		// }
-		// } else {
-		// 	fmt.Printf("Unknown header type %s\n", header)
-		// 	d.Nack(false, false)
+
+		// err = pubsub.PublishWebsites(qchan,
+		// 	routing.DhoondoWebsitesExchange,
+		// 	routing.DhoondoWebsitesKey,
+		// 	websites)
+		// if err != nil {
+		// 	fmt.Println(err.Error())
+		// 	d.Nack(false, true)
 		// 	resp.Body.Close()
 		// 	continue
 		// }
+		//
 
-		links := workerhelper.ExtractLinks(root, 0)
-		if links == nil {
-			d.Nack(false, false)
-			resp.Body.Close()
-			continue
-		}
-		fmt.Printf("Number of links found: %d\n", len(links))
-
-		links = workerhelper.DeDuplicate(links)
-
-		websites, err := workerhelper.ConvertToWebsite(links, val)
-		if err != nil {
-			d.Nack(false, false)
-			resp.Body.Close()
-			continue
-		}
-
-		err = pubsub.PublishWebsites(qchan,
-			routing.DhoondoWebsitesExchange,
-			routing.DhoondoWebsitesKey,
-			websites)
-		if err != nil {
-			fmt.Println(err.Error())
-			d.Nack(false, true)
-			resp.Body.Close()
-			continue
-		}
-
-		err = workerhelper.AddWebsiteToDatabase(val, queries)
+		tx, err := dbconn.Begin(context.Background())
 		if err != nil {
 			d.Nack(false, true)
 			resp.Body.Close()
 			continue
 		}
+		nq := queries.WithTx(tx)
+		webId, err := workerhelper.AddWebsiteToDatabase(val, nq)
+		if err != nil {
+			tx.Rollback(context.Background())
+			d.Nack(false, true)
+			resp.Body.Close()
+			continue
+		}
+
+		ids, err := workerhelper.AddWordsToDatabase(words, nq)
+		if err != nil {
+			tx.Rollback(context.Background())
+			d.Nack(false, true)
+			resp.Body.Close()
+			continue
+		}
+		fmt.Printf("Found %d words\n", len(ids))
+
+		err = workerhelper.IndexWords(ids, webId, nq)
+		if err != nil {
+			tx.Rollback(context.Background())
+			d.Nack(false, true)
+			resp.Body.Close()
+			continue
+		}
+		err = tx.Commit(context.Background())
+		if err != nil {
+			d.Nack(false, true)
+			resp.Body.Close()
+			continue
+		}
+
 		d.Ack(false)
 		resp.Body.Close()
-		fmt.Printf("Added %s to database\n", val.Link)
+		fmt.Printf("Indexed %s to database\n", val.Link)
 	}
 	return nil
 }
