@@ -97,8 +97,6 @@ func AddListener(qchan *amqp.Channel, qName string) error {
 			continue
 		}
 
-		header := resp.Header.Get("Content-Type")
-		fmt.Printf("Header type is %s\n", header)
 		root, err := html.Parse(resp.Body)
 		if err != nil {
 			d.Nack(false, false)
@@ -120,6 +118,9 @@ func AddListener(qchan *amqp.Channel, qName string) error {
 			d.Nack(false, false)
 			resp.Body.Close()
 			continue
+		}
+		for _, word := range words {
+			fmt.Printf("%s ", word)
 		}
 
 		words = workerhelper.DeDuplicate(words)
@@ -146,6 +147,7 @@ func AddListener(qchan *amqp.Channel, qName string) error {
 
 		tx, err := dbconn.Begin(context.Background())
 		if err != nil {
+			fmt.Println(err.Error())
 			d.Nack(false, true)
 			resp.Body.Close()
 			continue
@@ -153,6 +155,7 @@ func AddListener(qchan *amqp.Channel, qName string) error {
 		nq := queries.WithTx(tx)
 		webId, err := workerhelper.AddWebsiteToDatabase(val, nq)
 		if err != nil {
+			fmt.Println(err.Error())
 			tx.Rollback(context.Background())
 			d.Nack(false, true)
 			resp.Body.Close()
@@ -161,6 +164,7 @@ func AddListener(qchan *amqp.Channel, qName string) error {
 
 		ids, err := workerhelper.AddWordsToDatabase(words, nq)
 		if err != nil {
+			fmt.Println(err.Error())
 			tx.Rollback(context.Background())
 			d.Nack(false, true)
 			resp.Body.Close()
@@ -170,6 +174,7 @@ func AddListener(qchan *amqp.Channel, qName string) error {
 
 		err = workerhelper.IndexWords(ids, webId, nq)
 		if err != nil {
+			fmt.Println(err.Error())
 			tx.Rollback(context.Background())
 			d.Nack(false, true)
 			resp.Body.Close()
@@ -177,6 +182,7 @@ func AddListener(qchan *amqp.Channel, qName string) error {
 		}
 		err = tx.Commit(context.Background())
 		if err != nil {
+			fmt.Println(err.Error())
 			d.Nack(false, true)
 			resp.Body.Close()
 			continue

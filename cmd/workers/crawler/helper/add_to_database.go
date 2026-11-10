@@ -40,11 +40,18 @@ func AddWordsToDatabase(words []string, q *database.Queries) ([]int, error) {
 			String: word,
 			Valid:  true,
 		}
-		id, err := q.InsertWord(context.Background(), arg)
+		var finid int
+		id, err := q.FindWord(context.Background(), arg)
 		if err != nil {
-			return nil, err
+			nid, err := q.InsertWord(context.Background(), arg)
+			if err != nil {
+				return nil, err
+			}
+			finid = int(nid)
+		} else {
+			finid = int(id)
 		}
-		ids = append(ids, int(id))
+		ids = append(ids, finid)
 	}
 	return ids, nil
 }
