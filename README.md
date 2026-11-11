@@ -1,6 +1,6 @@
 # Dhoondo
 
-Dhoondo is a website indexer CLI. You give it one or more website URLs, it publishes those to RabbitMQ and a worker then goes out and crawls each page, extracts the words from it and stores a reverse index in PostgreSQL.
+Dhoondo is a website indexer CLI. You give it one or more website URLs, it publishes those to RabbitMQ and a worker then goes out and crawls each page, extracts the words from it and stores a reverse index in PostgreSQL. You can later on look for words in the websites using index.
 
 ## How it works
 
@@ -8,9 +8,9 @@ Dhoondo is a website indexer CLI. You give it one or more website URLs, it publi
 - The main process publishes valid URLs to the dhoondo_websites RabbitMQ queue.
 - A worker consumes the queue and pulls each page.
 - The worker pulls the words out and de-duplicates them, then stores the websites, the words and the word-to-website links in PostgreSQL.
-- The database reverse index is the basis for searching the indexed pages. There's no search CLI/API at present.
+- The database reverse index is the basis for searching the indexed pages.
 
-Recursive crawling is supported in the crawler helpers, though newly discovered links are not at present published back out to Rabbitmq. The worker will index the page that's been submitted by the client.
+The CLI supports indexing URLs and querying the reverse index. Recursive crawling helpers are present, though newly discovered links are not currently published back to RabbitMQ. The worker indexes the page submitted by the client.
 
 > **Warning:** If recursive crawling is ever enabled in the future then sites like Wikipedia can contain a very large number of links. Set MAX_DEPTH carefully to avoid an unexpectedly large crawl.
 
@@ -32,7 +32,7 @@ MAX_DEPTH=1
 USER_AGENT=dhoondo/1.0
 ```
 
-Keep your credentials and any other environment specific values out of version control. .env.local can be used for local overrides, the app currently calls godotenv.Load() so it's expecting the active file to be called .env.
+Keep your credentials and other environment-specific values out of version control. The application currently calls `godotenv.Load()`, so the active file must be named `.env` in the working directory.
 
 ## Running locally
 
@@ -61,10 +61,25 @@ Keep your credentials and any other environment specific values out of version c
 5. Submit one or more URLs from another terminal:
 
    ```bash
-   go run ./cmd/dhoondo https://example.com https://www.example.org
+   go run ./cmd/dhoondo index https://example.com https://www.example.org
    ```
 
-The worker logs the number of words found and the URL indexed. Stop the local services with ./rabbit.sh stop and docker compose -f cmd/workers/compose.yaml down.
+The worker logs the number of words found and the URL indexed. Stop the local services with:
+
+```bash
+./rabbit.sh stop
+docker compose -f cmd/workers/compose.yaml down
+```
+
+## Querying indexed websites
+
+After a URL has been indexed, query one or more words with:
+
+```bash
+go run ./cmd/dhoondo query dhoondo search
+```
+
+The command prints the indexed URLs matching each query word. PostgreSQL and RabbitMQ must be running because the CLI connects to RabbitMQ before handling commands.
 
 ## Project layout
 
