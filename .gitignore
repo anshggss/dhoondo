@@ -1,2 +1,6 @@
 .env
 TODO.md
+skills-lock.json
+node_modules/
+.agents
+sv

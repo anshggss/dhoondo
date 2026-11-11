@@ -1,112 +1,116 @@
 # Dhoondo
 
-Dhoondo is a website indexer CLI. You give it one or more website URLs, it publishes those to RabbitMQ and a worker then goes out and crawls each page, extracts the words from it and stores a reverse index in PostgreSQL. You can later on look for words in the websites using index.
-
-## How it works
-
-- The CLI takes URLs from command line arguments.
-- The main process publishes valid URLs to the dhoondo_websites RabbitMQ queue.
-- A worker consumes the queue and pulls each page.
-- The worker pulls the words out and de-duplicates them, then stores the websites, the words and the word-to-website links in PostgreSQL.
-- The database reverse index is the basis for searching the indexed pages.
-
-The CLI supports indexing URLs and querying the reverse index. Recursive crawling helpers are present, though newly discovered links are not currently published back to RabbitMQ. The worker indexes the page submitted by the client.
-
-> **Warning:** If recursive crawling is ever enabled in the future then sites like Wikipedia can contain a very large number of links. Set MAX_DEPTH carefully to avoid an unexpectedly large crawl.
+Dhoondo indexes websites through a RabbitMQ-backed crawler and lets you
+search the collected words through a web interface.
 
 ## Requirements
 
 - Go 1.27.3 or compatible
-- Docker and Docker Compose
-- RabbitMQ
-- PostgreSQL
+- Bun
+- Docker
 
 ## Configuration
 
-Both executables will load a .env file from the working directory. Define:
+Create a `.env` file in the repository root:
 
 ```env
 RABBIT_MQ_SERVER=amqp://guest:guest@localhost:5672/
-POSTGRES_CONN=postgres://postgres:postgres@localhost:5432/index
-MAX_DEPTH=1
-USER_AGENT=dhoondo/1.0
+POSTGRES_CONN=postgresql://postgres:postgres@localhost:5432/index
 ```
 
-Keep your credentials and other environment-specific values out of version control. The application currently calls `godotenv.Load()`, so the active file must be named `.env` in the working directory.
+The Go server loads this file when it starts. `PORT` is optional and defaults
+to `8080`.
 
-## Running locally
+## Start the dependencies
 
-1. Start PostgreSQL:
-
-   ```bash
-   cd cmd/workers
-   docker compose up -d db
-   cd ../..
-   ```
-
-2. Start RabbitMQ using the helper script:
-
-   ```bash
-   ./rabbit.sh start
-   ```
-
-3. Apply the SQL files in internal/sql/schema/ to the configured PostgreSQL database.
-
-4. Start the worker in one terminal:
-
-   ```bash
-   go run ./cmd/workers
-   ```
-
-5. Submit one or more URLs from another terminal:
-
-   ```bash
-   go run ./cmd/dhoondo index https://example.com https://www.example.org
-   ```
-
-The worker logs the number of words found and the URL indexed. Stop the local services with:
+Start PostgreSQL:
 
 ```bash
-./rabbit.sh stop
-docker compose -f cmd/workers/compose.yaml down
+docker compose -f cmd/workers/compose.yaml up -d db
 ```
 
-## Querying indexed websites
-
-After a URL has been indexed, query one or more words with:
+Start RabbitMQ:
 
 ```bash
-go run ./cmd/dhoondo query dhoondo search
+./rabbit.sh start
 ```
 
-The command prints the indexed URLs matching each query word. PostgreSQL and RabbitMQ must be running because the CLI connects to RabbitMQ before handling commands.
+## Start the server
 
-## Project layout
+From the repository root:
 
-```text
-cmd/dhoondo/             URL input and RabbitMQ publisher
-cmd/workers/             RabbitMQ worker entrypoint and crawler
-internal/input/          URL validation and argument parsing
-internal/pubsub/         RabbitMQ declaration and publishing
-internal/sql/schema/     PostgreSQL schema migrations
-internal/sql/queries/    SQL queries used by sqlc
-internal/database/       Generated sqlc PostgreSQL code
+```bash
+go run ./server
 ```
 
-## Database
+The server listens on `http://localhost:8080`.
 
-The schema contains:
+## Start the crawler worker
 
-- `websites`: indexed URLs
-- `words`: unique words extracted from pages
-- `reverseindex`: relationships between words and websites
+In another terminal, from the repository root:
 
-`sqlc.yaml` produces the PostgreSQL data access code in internal/database/ from the SQL files in internal/sql/queries/.
+```bash
+go run ./cmd/workers
+```
 
-## Development
+The worker listens to RabbitMQ for published websites, crawls each website,
+and stores its words and reverse index in PostgreSQL. Keep the worker running
+while using the frontend or `/publish`; the server only places websites on the
+RabbitMQ queue.
 
-Run the Go test suite with:
+### API endpoints
+
+Publish websites for crawling:
+
+```http
+POST /publish
+Content-Type: application/json
+
+{"websites":["https://example.com","https://developer.mozilla.org"]}
+```
+
+Search indexed websites:
+
+```http
+POST /search/
+Content-Type: application/json
+
+{"words":["architecture"]}
+```
+
+Both endpoints return JSON and support browser CORS requests.
+
+## Start the website frontend
+
+In another terminal:
+
+```bash
+cd app
+bun install
+bun dev
+```
+
+Open the URL printed by Bun. The frontend defaults to the Go server at
+`http://localhost:8080`; set `BUN_PUBLIC_API_URL` if the server runs elsewhere.
+
+The dispatch page submits website batches through `/publish`. Use the
+**Search the indexed web** link to open `/search` and query indexed words.
+
+## Checks
+
+Run the Go tests:
 
 ```bash
 go test ./...
 ```
+
+Type-check the frontend:
+
+```bash
+cd app
+bun run typecheck
+```
+
+## Architecture
+
+![Architecture diagram](references/architecture/proposedarchitecture.png)
